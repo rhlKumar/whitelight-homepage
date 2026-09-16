@@ -45,6 +45,7 @@ jobs:
             pashudost/privacy pashudost/terms \
             maya/privacy maya/terms \
             sukoon/privacy sukoon/terms \
+            attendance/privacy attendance/terms \
             pulsecheck/privacy pulsecheck/terms \
             policy terms; do
             mkdir -p "dist/$route"

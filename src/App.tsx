@@ -10,6 +10,8 @@ import PulseCheckPrivacy from "./pages/PulseCheckPrivacy";
 import PulseCheckTerms from "./pages/PulseCheckTerms";
 import WellnessPrivacy from "./pages/WellnessPrivacy";
 import WellnessTerms from "./pages/WellnessTerms";
+import AttendancePrivacy from "./pages/AttendancePrivacy";
+import AttendanceTerms from "./pages/AttendanceTerms";
 import NotFound from "./pages/NotFound";
 
 const App = () => (
@@ -28,6 +30,8 @@ const App = () => (
         <Route path="/pashudost/privacy" element={<WellnessPrivacy appName="Pashudost" slug="pashudost" />} />
         <Route path="/maya/privacy" element={<WellnessPrivacy appName="Parvarish Coach" slug="maya" />} />
         <Route path="/sukoon/privacy" element={<WellnessPrivacy appName="Intimacy Coach" slug="sukoon" />} />
+        <Route path="/attendance/privacy" element={<AttendancePrivacy appName="Attendance Staff Register" slug="attendance" />} />
+        <Route path="/attendance/terms" element={<AttendanceTerms appName="Attendance Staff Register" slug="attendance" />} />
         <Route path="/rajloveguru/terms" element={<WellnessTerms appName="Loveguru" slug="rajloveguru" />} />
         <Route path="/bizguru/terms" element={<WellnessTerms appName="Business Guru" slug="bizguru" />} />
         <Route path="/pashudost/terms" element={<WellnessTerms appName="Pashudost" slug="pashudost" />} />
